@@ -1,12 +1,10 @@
-import Layout from "./Layout";
+import Layout from './Layout';
 
 const Home = () => (
-    <>
+  <>
     <Layout />
-    <section>
-
-    </section>
-    </>
+    <section />
+  </>
 );
 
 export default Home;

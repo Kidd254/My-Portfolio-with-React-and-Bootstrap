@@ -1,11 +1,9 @@
-import Layout from "./Layout";
+import Layout from './Layout';
 
-const Projects= () => (
-    <>
+const Projects = () => (
+  <>
     <Layout />
-    <section>
-
-    </section>
-    </>
+    <section />
+  </>
 );
 export default Projects;

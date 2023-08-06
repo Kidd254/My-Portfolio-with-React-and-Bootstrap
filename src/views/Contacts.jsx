@@ -1,12 +1,10 @@
-import Layout from "./Layout";
+import Layout from './Layout';
 
-const Contacts = () =>(
-    <>
+const Contacts = () => (
+  <>
     <Layout />
-    <section>
-
-    </section>
-    </>
+    <section />
+  </>
 );
 
 export default Contacts;
