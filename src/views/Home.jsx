@@ -1,9 +1,14 @@
 import Layout from './Layout';
+import HomeContent from '../componentss/HomeContent';
 
 const Home = () => (
   <>
     <Layout />
-    <section />
+    <section>
+      <div>
+        <HomeContent />
+      </div>
+    </section>
   </>
 );
 
