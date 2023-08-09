@@ -12,7 +12,7 @@ const projects = [
     image: [firstProject, firstProject2],
     alt: 'first Capstone Project',
     heading: 'Annual SuperCruise Festival Website',
-    description: 'Annual supercruise website is a website where users can find information about where and when the festival will be held. The website also informs users about the artists who will perform during the festival as well as the festival program. The about page displays infomation about supercruise festival, past supercruice celebrations and the information to reach out in case user has concerns or questions',
+    description: 'In this website users can find information about where and when the festival will be held, informs users about the performing artists as well as the festival program. The about page displays infomation about past supercruice celebrations and contact information',
     languages: ['HTML', 'CSS', 'JavaScript'],
     projectLink: 'https://kidd254.github.io/Module1-Capstone-Project/',
   },
@@ -21,7 +21,7 @@ const projects = [
     image: [bookstore],
     alt: 'bookstore app image',
     heading: 'BookStore Web App',
-    description: 'In this web app a user can add books, track reading progress and remove unneccesary books',
+    description: 'In this web app a user can add books, track reading progress and remove unneccesary books. Moreover a user can add and edit comments',
     languages: ['React', 'HTML', 'JavaScript'],
     projectLink: 'https://bookstore-react-redux-x12q.onrender.com/',
   },
@@ -55,32 +55,35 @@ const projects = [
 ];
 
 const ProjectList = () => (
-  <div className="container align-items-center justify-content-center">
+  <div className="container align-items-center justify-content-center bg-secondary bg-secondary-light pt-3 pb-3">
     {projects.map((project) => (
-      <div key={project.id} className="row m-5 border border-primary p-2">
+      <div key={project.id} className="row m-5 p-2 bg-white rounded max-h-600 h-500 min-h-450">
         <div className="left col-md-6 align-items-center">
-          <div className="pt-3">
+          <div className="mt-3 mb-3 ratio ratio-4x3">
             <img src={project.image[0]} alt={project.alt} className={`image-fluid ${styles.image}`} />
           </div>
         </div>
-        <div className="right col-md-6">
-          <div>
-            <h2>{project.heading}</h2>
+        <div className="right col-md-6 pt-3 pb-3">
+          <div className="row">
+            <div className="col-md-12">
+              <h2>{project.heading}</h2>
+            </div>
           </div>
-          <div>
+          <div className="h-450 pt-2 pb-2">
             <p>{project.description}</p>
           </div>
           <div>
             <ul className="list-inline">
-              <li className="list-inline-item">{project.languages[0]}</li>
-              <li className="list-inline-item">{project.languages[1]}</li>
-              <li className="list-inline-item">{project.languages[2]}</li>
+              <li className="list-inline-item bg-primary bg-primary-light rounded p-2 text-white">{project.languages[0]}</li>
+              <li className="list-inline-item bg-primary bg-primary-light rounded p-2 text-white">{project.languages[1]}</li>
+              <li className="list-inline-item bg-primary bg--light rounded p-2 text-white">{project.languages[2]}</li>
             </ul>
           </div>
           <div>
-            <button type="button" className="underline">
+            <button type="button" className="btn btn-info cursor-pointer background">
               <a
                 href={project.projectLink}
+                className={`text-white ${styles.underline}`}
               >
                 See Project
               </a>
