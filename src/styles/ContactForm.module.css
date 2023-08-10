@@ -1,0 +1,7 @@
+.background {
+    background-image: url(../assets/images/contact\ form\ background\ shapes@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: '100vh';
+    background-color:darkblue;
+}
