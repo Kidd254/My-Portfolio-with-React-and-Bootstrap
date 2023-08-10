@@ -1,0 +1,51 @@
+.background {
+  background-image: url(../assets/images/Header\ bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.space {
+  white-space: break-spaces;
+  animation: fadeInOut 4s infinite;
+}
+
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  25% {
+    color: purple;
+  }
+
+  50% {
+    opacity: 1;
+    color: blue;
+  }
+
+  75% {
+    color: red;
+  }
+}
+
+.github,
+.linkedin,
+.twitter,
+.medium,
+.angelist {
+  color: black;
+  transition-property: color;
+  transition-duration: 3s;
+  transition-timing-function: ease-out;
+  transition-delay: 1s;
+}
+
+.github:hover,
+.linkedin:hover,
+.twitter:hover,
+.medium:hover,
+.angelist:hover {
+  color: blue;
+}
