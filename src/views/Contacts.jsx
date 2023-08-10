@@ -1,9 +1,12 @@
+import ContactForm from '../componentss/ContactForm';
 import Layout from './Layout';
 
 const Contacts = () => (
   <>
     <Layout />
-    <section />
+    <section>
+      <ContactForm />
+    </section>
   </>
 );
 
