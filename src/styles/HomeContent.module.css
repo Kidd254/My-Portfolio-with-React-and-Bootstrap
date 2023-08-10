@@ -1,0 +1,6 @@
+.background {
+    background-image: url(../assets/images/Header\ bg.jpg);
+    background-size: 'cover';
+    background-repeat: 'no-repeat';
+    height: '50vh';
+}
