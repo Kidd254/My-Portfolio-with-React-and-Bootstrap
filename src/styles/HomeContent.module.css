@@ -1,5 +1,5 @@
 .background {
-  background-image: url(../assets/images/Header\ bg.jpg);
+  background-image: url(../assets/images/wallpaperflare.com_wallpaper\(4\).jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -35,7 +35,7 @@
 .twitter,
 .medium,
 .angelist {
-  color: black;
+  color: white;
   transition-property: color;
   transition-duration: 3s;
   transition-timing-function: ease-out;
