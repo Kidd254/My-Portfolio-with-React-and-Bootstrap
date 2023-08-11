@@ -12,7 +12,7 @@ const ContactForm = () => (
       </p>
     </div>
 
-    <form action="#" method="post">
+    <form action="https://formspree.io/f/xnqkpzvv" method="post">
       <div className="row mt-3 mb-3">
         <label htmlFor="nameInput" className="col-md-3 col-form-label text-white">Name</label>
         <div className="col-md-8">
