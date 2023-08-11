@@ -55,28 +55,30 @@ const projects = [
 ];
 
 const ProjectList = () => (
-  <div className="container align-items-center justify-content-center bg-secondary bg-secondary-light pt-3 pb-3">
+  <div className={`container-fluid align-items-center justify-content-center bg-secondary bg-secondary-light pt-3 pb-3 ${styles.background}`}>
     {projects.map((project) => (
-      <div key={project.id} className="row m-5 p-2 bg-white rounded max-h-600 h-500 min-h-450">
+      <div key={project.id} className="row m-5 p-2 rounded max-h-600 h-500 min-h-450 bg-dark">
         <div className="left col-md-6 align-items-center">
-          <div className="mt-3 mb-3 ratio ratio-4x3">
+          <div className="mt-3 mb-3 ratio ratio-4x3 text-white">
             <img src={project.image[0]} alt={project.alt} className={`image-fluid ${styles.image}`} />
           </div>
         </div>
         <div className="right col-md-6 pt-3 pb-3">
           <div className="row">
-            <div className="col-md-12">
+            <div className="col-md-12 text-white">
               <h2>{project.heading}</h2>
             </div>
           </div>
-          <div className="h-450 pt-2 pb-2">
+          <div className="h-450 pt-2 pb-2 text-white">
             <p>{project.description}</p>
           </div>
           <div>
             <ul className="list-inline">
-              <li className="list-inline-item bg-primary bg-primary-light rounded p-2 text-white">{project.languages[0]}</li>
-              <li className="list-inline-item bg-primary bg-primary-light rounded p-2 text-white">{project.languages[1]}</li>
-              <li className="list-inline-item bg-primary bg--light rounded p-2 text-white">{project.languages[2]}</li>
+              {project.languages.map((language) => (
+                <li key={language} className="list-inline-item bg-primary bg-primary-light rounded p-2 text-white">
+                  {language}
+                </li>
+              ))}
             </ul>
           </div>
           <div>

@@ -2,8 +2,8 @@ import MenuLink from './MenuLink';
 
 const NavBar = () => (
   <header>
-    <div className="container-fluid">
-      <nav className="navbar navbar-expand-md bg-white">
+    <div className="container-fluid bg-success">
+      <nav className="navbar navbar-expand-md">
         <ul className="navbar-nav list-unstyled">
           <MenuLink url="/home" pageName="Home" />
           <MenuLink url="/projects" pageName="My Projects" />

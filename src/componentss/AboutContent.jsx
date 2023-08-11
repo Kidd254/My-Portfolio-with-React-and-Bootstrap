@@ -31,7 +31,7 @@ const AboutContent = () => (
           <a href="https://wellfound.com/u/lawrence-muema-kioko" aria-label="Angellist" className={`p-2 ${styles.angelist}`}><FaAngellist size={32} /></a>
         </div>
         <div>
-          <button type="button" className="btn btn-info text-white"><a href="https://drive.google.com/file/d/14VxIzjiDh1vY6JpgPAa8Ej58noXwelDW/view?usp=sharing" className={css.underline}>Get My Resume</a></button>
+          <button type="button" className="btn btn-info"><a href="https://docs.google.com/document/d/1_DneCqewtAIyWQ4gY8GkeOjPBgl8vPSnX_PmiVN1KPo/edit?usp=sharing" className={`text-white ${css.underline}`}>Get My Resume</a></button>
         </div>
       </div>
       <div className="col-md-5">

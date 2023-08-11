@@ -6,7 +6,7 @@ import styles from '../styles/HomeContent.module.css';
 const HomeContent = () => (
   <div className={`container-fluid d-flex flex-column justify-content-center align-items-center ${styles.background}`}>
 
-    <div className={`col-md-5 mt-5 pt-5 transition ${styles.space}`}>
+    <div className={`col-md-5 mt-3 transition ${styles.space}`}>
       <h1 className="text-white">I&apos;m Lawrence                   Glad to See                     You!</h1>
     </div>
 
