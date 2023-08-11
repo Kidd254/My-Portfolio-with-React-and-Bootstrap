@@ -1,0 +1,19 @@
+.background {
+    background-image: url(../assets/images/wallpaperflare.com_wallpaper.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.heading {
+    white-space:break-spaces;
+}
+
+.length {
+    white-space:break-spaces;
+}
+
+.underline {
+    text-decoration: none;
+}
