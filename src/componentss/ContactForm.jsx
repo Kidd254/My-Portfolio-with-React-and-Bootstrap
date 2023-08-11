@@ -12,24 +12,24 @@ const ContactForm = () => (
       </p>
     </div>
 
-    <form action="#" method="post">
+    <form action="https://formspree.io/f/xnqkpzvv" method="post">
       <div className="row mt-3 mb-3">
         <label htmlFor="nameInput" className="col-md-3 col-form-label text-white">Name</label>
         <div className="col-md-8">
-          <input id="nameInput" type="text" className="form-control" placeholder="Enter Your name" required />
+          <input id="nameInput" name="name" type="text" className="form-control" placeholder="Enter Your name" required />
         </div>
       </div>
       <div className="row mb-3">
         <label htmlFor="emailInput" className="col-md-3 col-form-label text-white">Email</label>
         <div className="col-md-8">
-          <input type="email" id="emailInput" className="form-control" placeholder="Enter Your Email" required />
+          <input type="email" id="emailInput" name="email" className="form-control" placeholder="Enter Your Email" required />
         </div>
       </div>
       <div className="row mb-3">
 
         <label htmlFor="textInput" className="col-md-3 col-form-label text-white">Message</label>
         <div className="col-md-8">
-          <textarea className="form-control " placeholder="Write your message..." />
+          <textarea className="form-control" name="message" placeholder="Write your message..." />
         </div>
       </div>
       <div className="row">

@@ -1,5 +1,5 @@
 .background {
-  background-image: url(../assets/images/Header\ bg.jpg);
+  background-image: url(../assets/images/wallpaperflare.com_wallpaper\(4\).jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -7,7 +7,7 @@
 
 .space {
   white-space: break-spaces;
-  animation: fadeInOut 4s infinite;
+  animation: fadeInOut 5s infinite;
 }
 
 @keyframes fadeInOut {
@@ -17,7 +17,7 @@
   }
 
   25% {
-    color: purple;
+    color:deeppink;
   }
 
   50% {
@@ -35,7 +35,7 @@
 .twitter,
 .medium,
 .angelist {
-  color: black;
+  color: white;
   transition-property: color;
   transition-duration: 3s;
   transition-timing-function: ease-out;
