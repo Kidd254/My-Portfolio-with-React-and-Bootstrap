@@ -41,7 +41,7 @@ const projects = [
     heading: 'Leaderboad App',
     description: 'This  Web App fetches scores from API and displays them with the corresponding scorer name. Moreover, one can add there score by filling the input fields with the user name and the score',
     languages: ['HTML', 'CSS', 'JavaScript'],
-    projectLink: 'https://kidd254.github.io/Leaderboard/dist/',
+    projectLink: 'https://kidd254.github.io/Leaderboard/',
   },
   {
     id: 5,
