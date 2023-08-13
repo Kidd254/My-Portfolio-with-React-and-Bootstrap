@@ -1,6 +1,6 @@
 import firstProject from '../assets/images/Annual.PNG';
 import firstProject2 from '../assets/images/first capstone2.PNG';
-import bookstore from '../assets/images/archive.PNG';
+import bookstore from '../assets/images/bookcms.PNG';
 import spaceTravellers from '../assets/images/space travellers hub.png';
 import leaderboard from '../assets/images/leaderboard image.PNG';
 import shows from '../assets/images/movies.PNG';
