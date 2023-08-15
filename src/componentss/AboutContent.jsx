@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import {
   FaTwitter,
   FaLinkedin,
@@ -79,17 +80,40 @@ const AboutContent = () => (
       </div>
       <div className="col-md-5">
         <div className="d-flex mb-3">
-          <h2 className="text-white">Languages</h2>
+          <h2 className="text-white">Languages & Libraries</h2>
           <div className="ms-auto text-white">
             <ChevronDown />
           </div>
         </div>
         <div className="mb-4">
           <ul className="list-inline">
-            <li className="list-inline-item text-white">JavaScript</li>
-            <li className="list-inline-item text-white">HTML</li>
-            <li className="list-inline-item text-white">CSS</li>
-            <li className="list-inline-item text-white">React/Redux</li>
+            <li className="list-inline-item text-white">
+              <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+            </li>
+            <li className="list-inline-item text-white">
+              <img
+                src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
+                alt="html5"
+              />
+            </li>
+            <li className="list-inline-item text-white">
+              <img
+                src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
+                alt="css3"
+              />
+            </li>
+            <li className="list-inline-item text-white">
+              <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+            </li>
+            <li className="list-inline-item text-white">
+              <img
+                src="https://img.shields.io/badge/Redux-593D88.svg?style=for-the-badge&logo=redux&logoColor=white"
+                alt="redux"
+              />
+            </li>
+            <li className="list-inline-item text-white">
+              <img src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white" />
+            </li>
           </ul>
         </div>
         <div className="d-flex mb-4">
@@ -98,11 +122,123 @@ const AboutContent = () => (
             <ChevronRight />
           </div>
         </div>
+        <div>
+          <ul className="list-inline">
+            <li className="list-inline-item text-white">
+              <img
+                src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"
+                alt="bootstrap"
+              />
+            </li>
+            <li className="list-inline-item text-white">
+              <img
+                src="https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white"
+                alt="rails"
+              />
+            </li>
+            <li className="list-inline-item">
+              <a
+                href="https://tailwindcss.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  alt="TailwindCSS"
+                  src="https://img.shields.io/badge/-TailwindCSS-brightgreen"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
         <div className="d-flex mb-4">
-          <h2 className="text-white">Skills</h2>
+          <h2 className="text-white">Databases</h2>
           <div className="ms-auto text-white">
             <ChevronRight />
           </div>
+        </div>
+        <div>
+          <ul className="list-inline">
+            <li className="list-inline-item">
+              <a href="https://www.github.com">
+                <img
+                  alt="GitHub Pages"
+                  src="https://img.shields.io/badge/GitHub%20Pages-%23327FC7.svg?style=flat&llogo=github&logoColor=white"
+                />
+              </a>
+            </li>
+            <li className="list-inline-item">
+              <a href="https://www.sqlite.org/">
+                <img
+                  alt="SQLite"
+                  src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat&logo=sqlite&logoColor=white"
+                />
+              </a>
+            </li>
+            <li className="list-inline-item">
+              {' '}
+              <a href="https://www.heroku.com/">
+                <img
+                  alt="Heroku"
+                  src="https://img.shields.io/badge/Heroku%20-%23430098.svg?logo=heroku&logoColor=white"
+                />
+              </a>
+              {' '}
+            </li>
+            <li className="list-inline-item">
+              <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+            </li>
+          </ul>
+        </div>
+        <div className="d-flex mb-4">
+          <h2 className="text-white">Software & Tools</h2>
+          <div className="ms-auto text-white">
+            <ChevronRight />
+          </div>
+        </div>
+        <div>
+          <ul className="list-inline">
+            <li className="list-inline-item">
+              <a href="https://codepen.io/">
+                <img
+                  alt="Codepen"
+                  src="https://img.shields.io/badge/Codepen-000000.svg?logo=codepen&logoColor=white"
+                />
+              </a>
+            </li>
+            <li className="list-inline-item">
+              <a href="https://git-scm.com/">
+                <img
+                  alt="Git"
+                  src="https://img.shields.io/badge/Git%20-%23F05033.svg?logo=git&logoColor=white"
+                />
+              </a>
+            </li>
+            <li className="list-inline-item">
+              <a href="https://code.visualstudio.com/">
+                <img
+                  alt="Visual Studio Code"
+                  src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?logo=visual-studio-code&logoColor=white"
+                />
+              </a>
+            </li>
+            <li className="list-inline-item">
+              <a href="https://stackoverflow.com/">
+                <img
+                  alt="Stack Overflow"
+                  src="https://img.shields.io/badge/-Stack%20Overflow-FE7A16?logo=stack-overflow&logoColor=white"
+                />
+              </a>
+            </li>
+            <li className="list-inline-item">
+              <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+            </li>
+            <li className="list-inline-item">
+              <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" />
+            </li>
+            <li className="list-inline-item">
+              <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+            </li>
+          </ul>
         </div>
       </div>
     </div>
