@@ -15,7 +15,8 @@ const projects = [
     description:
       'In this website users can find information about where and when the festival will be held, informs users about the performing artists as well as the festival program. The about page displays infomation about past supercruice celebrations and contact information',
     languages: ['HTML', 'CSS', 'JavaScript'],
-    projectLink: 'https://kidd254.github.io/Module1-Capstone-Project/',
+    liveLink: 'https://kidd254.github.io/Module1-Capstone-Project/',
+    projectLink: 'https://github.com/Kidd254/Module1-Capstone-Project',
   },
   {
     id: 2,
@@ -25,7 +26,8 @@ const projects = [
     description:
       'In this web app a user can add books, track reading progress and remove unneccesary books. Moreover a user can add and edit comments',
     languages: ['React', 'HTML', 'JavaScript'],
-    projectLink: 'https://bookstore-react-redux-x12q.onrender.com/',
+    liveLink: 'https://bookstore-react-redux-x12q.onrender.com/',
+    projectLink: 'https://github.com/Kidd254/Bookstore-React-Redux',
   },
   {
     id: 3,
@@ -35,7 +37,8 @@ const projects = [
     description:
       "This web app is for a company that offers space travel services. It's built with React and Redux, using spaceX API to get the data",
     languages: ['React', 'Redux', 'JavaScript', 'HTML', 'CSS'],
-    projectLink: 'https://space-travelers-hub-l1ba.onrender.com/',
+    liveLink: 'https://space-travelers-hub-l1ba.onrender.com/',
+    projectLink: 'https://github.com/Kidd254/space-travelers-hub',
   },
   {
     id: 4,
@@ -45,7 +48,8 @@ const projects = [
     description:
       'This  Web App fetches scores from API and displays them with the corresponding scorer name. Moreover, one can add there score by filling the input fields with the user name and the score',
     languages: ['HTML', 'CSS', 'JavaScript'],
-    projectLink: 'https://kidd254.github.io/Leaderboard/',
+    liveLink: 'https://kidd254.github.io/Leaderboard/',
+    projectLink: 'https://github.com/Kidd254/Leaderboard',
   },
   {
     id: 5,
@@ -55,7 +59,8 @@ const projects = [
     description:
       'This app makes use of an API and it displays a library of Tv Shows upon a search input. You can search for your favorite show or movie categories.',
     languages: ['HTML', 'CSS', 'JavaScript'],
-    projectLink: 'https://hfg43.github.io/JS_Capstone/',
+    liveLink: 'https://hfg43.github.io/JS_Capstone/',
+    projectLink: 'https://github.com/Kidd254/JS_Capstone',
   },
 ];
 
@@ -98,18 +103,37 @@ const ProjectList = () => (
               ))}
             </ul>
           </div>
-          <div>
-            <button
-              type="button"
-              className="btn btn-info cursor-pointer background"
-            >
-              <a
-                href={project.projectLink}
-                className={`text-white ${styles.underline}`}
+          <div className="col-md-12 d-flex row">
+            <div className="col-md-4">
+              <button
+                type="button"
+                className="btn btn-info cursor-pointer background"
               >
-                See Project
-              </a>
-            </button>
+                <a
+                  href={project.projectLink}
+                  target="_blank"
+                  className={`text-white ${styles.underline}`}
+                  rel="noreferrer"
+                >
+                  See Project
+                </a>
+              </button>
+            </div>
+            <div className="col-md-6">
+              <button
+                type="button"
+                className="btn btn-info cursor-pointer background"
+              >
+                <a
+                  href={project.liveLink}
+                  target="_blank"
+                  className={`text-white ${styles.underline}`}
+                  rel="noreferrer"
+                >
+                  See Live
+                </a>
+              </button>
+            </div>
           </div>
         </div>
       </div>
