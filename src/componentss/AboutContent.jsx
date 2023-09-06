@@ -32,35 +32,35 @@ const AboutContent = () => (
         </div>
         <div className="col-md-6 mb-5">
           <a
-            href="https://github.com/Kidd254"
+            href="https://github.com/Kidd254" target="_blank"
             aria-label="Github"
             className={`pt-2 pr-2 pb-2 ${styles.github}`}
           >
             <FaGithub size={32} />
           </a>
           <a
-            href="https://www.linkedin.com/in/lawrence-muema-kioko"
+            href="https://www.linkedin.com/in/lawrence-muema-kioko" target="_blank"
             aria-label="Linkedin"
             className={`p-2 ${styles.linkedin}`}
           >
             <FaLinkedin size={32} />
           </a>
           <a
-            href="https://medium.com/@lorenkioko"
+            href="https://medium.com/@lorenkioko" target="_blank"
             aria-label="Medium"
             className={`p-2 ${styles.medium}`}
           >
             <FaMedium size={32} />
           </a>
           <a
-            href="https://twitter.com/lawrenc98789206"
+            href="https://twitter.com/lawrenc98789206" target="_blank"
             aria-label="Twitter"
             className={`p-2 ${styles.twitter}`}
           >
             <FaTwitter size={32} />
           </a>
           <a
-            href="https://wellfound.com/u/lawrence-muema-kioko"
+            href="https://wellfound.com/u/lawrence-muema-kioko" target="_blank"
             aria-label="Angellist"
             className={`p-2 ${styles.angelist}`}
           >
@@ -70,7 +70,7 @@ const AboutContent = () => (
         <div>
           <button type="button" className="btn btn-info">
             <a
-              href="https://docs.google.com/document/d/1_DneCqewtAIyWQ4gY8GkeOjPBgl8vPSnX_PmiVN1KPo/edit?usp=sharing"
+              href="https://docs.google.com/document/d/1_DneCqewtAIyWQ4gY8GkeOjPBgl8vPSnX_PmiVN1KPo/edit?usp=sharing" target="_blank"
               className={`text-white ${css.underline}`}
             >
               Get My Resume
