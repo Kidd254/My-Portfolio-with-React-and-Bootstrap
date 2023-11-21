@@ -35,7 +35,7 @@
 .twitter,
 .medium,
 .angelist {
-  color: white;
+  color: black;
   transition-property: color;
   transition-duration: 3s;
   transition-timing-function: ease-out;
