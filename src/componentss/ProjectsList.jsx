@@ -1,15 +1,14 @@
-import firstProject from '../assets/images/Annual.PNG';
-import firstProject2 from '../assets/images/first capstone2.PNG';
-import bookstore from '../assets/images/bookcms.PNG';
+import firstProject from '../assets/images/capital jazz.png';
+import bookstore from '../assets/images/Bookstore.png';
 import spaceTravellers from '../assets/images/space travellers hub.png';
-import leaderboard from '../assets/images/leaderboard image.PNG';
+import leaderboard from '../assets/images/leaderboard.png';
 import shows from '../assets/images/movies.PNG';
 import styles from '../styles/ProjectsList.module.css';
 
 const projects = [
   {
     id: 1,
-    image: [firstProject, firstProject2],
+    image: [firstProject],
     alt: 'first Capstone Project',
     heading: 'Annual SuperCruise Festival Website',
     description:
