@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import {
   FaTwitter, FaLinkedin, FaGithub, FaMedium, FaAngellist,
 } from 'react-icons/fa';
@@ -12,9 +13,11 @@ const HomeContent = () => (
 
     <div className=" col-md-5">
       <p className="text-white">
-        I&apos;m a software developer! I can help you build a product ,
-        feature or website Look through some of my work and experience!
-        If you like what you see and have a project you need coded,don’t hestiate to contact me.
+        I&apos;m a Full-stack developer with over 2 years of hands-on experience, dedicated to crafting robust and innovative software solutions. My expertise spans both front-end and back-end development, allowing me to contribute holistically to the software development life cycle. I thrive in collaborative environments, working closely with diverse teams to ensure the successful execution of projects.
+
+        My passion extends to staying at the forefront of emerging trends and continuously refining development methodologies. My commitment to innovation and excellence drives me to deliver exceptional outcomes.
+        {' '}
+
       </p>
     </div>
 
