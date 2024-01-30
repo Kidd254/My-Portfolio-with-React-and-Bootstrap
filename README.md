@@ -139,10 +139,7 @@ I am always looking for ways to improve my project. If you have any suggestions 
 ## 📧 Authors <a name="authors"></a>
 
 - ***[Lawrence Muema Kioko](https://github.com/Kidd254)***
-- 👤 **Lawrence Muema Kioko**
 
-- GitHub: [@kidd254](https://github.com/Kidd254)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lawrence-muema-kioko)
 
 ## 🤝 Contributing <a name="contributing"></a>
 
